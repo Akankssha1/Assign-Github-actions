@@ -2,9 +2,9 @@
   "name": "assign-github-actions",
   "version": "1.0.0",
   "description": "CI/CD project with GitHub Actions and Docker",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
