@@ -43,6 +43,7 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+          no-cache: true  # <--- Add this line to force full rebuild
           # Pass the commit SHA as a build argument to the Dockerfile
           build-args: |
             APP_VERSION=${{ github.sha }}
