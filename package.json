@@ -1,8 +1,15 @@
 {
-  "name": "github-actions-demo",
+  "name": "assign-github-actions",
   "version": "1.0.0",
-  "main": "app.js",
-  "scripts": { "start": "node app.js" },
-  "dependencies": { "express": "^4.18.2" }
+  "description": "CI/CD project with GitHub Actions and Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
-
